@@ -1,0 +1,9 @@
+install anaconda python
+
+conda create -n mic3 python=3
+activate mic3
+
+conda install matplotlib
+conda install scikit-learn
+pip install SimpleITK
+conda install jupyter
